@@ -12,7 +12,7 @@
 set -euo pipefail
 
 # ---------- 可配置项 ----------
-GIT_REPO="https://github.com/你的用户名/yijunchen-portfolio.git"   # TODO: 改成你的真实仓库地址
+GIT_REPO="https://github.com/Drink21s/yijunchen-portfolio.git"
 WEB_DIR="/var/www/yijunchen"
 SITE_CONF="/etc/nginx/sites-available/yijunchen"
 # ------------------------------
