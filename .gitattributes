@@ -1,0 +1,18 @@
+# 统一换行符，避免 Windows / 服务器之间出现“整个文件都被改动”的假差异
+* text=auto
+
+# 网页文件用 LF
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.conf text eol=lf
+
+# 图片和字体是二进制文件
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.webp binary
+*.gif  binary
+*.ico  binary
+*.woff2 binary

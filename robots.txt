@@ -1,0 +1,7 @@
+# 允许搜索引擎收录（找工作用的公开作品集，需要被搜到）
+User-agent: *
+Allow: /
+Disallow: /docs/
+
+# 站点地图地址：部署后把下面的 YOUR-DOMAIN 换成自己的域名或 IP
+Sitemap: https://YOUR-DOMAIN/sitemap.xml
