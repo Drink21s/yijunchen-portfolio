@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>上过的课程 — 易俊臣</title>
+<meta name="description" content="易俊臣的课程清单：四川传媒学院计算机科学与技术专业，按学期整理，含学分与成绩。" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23ff8f45'/%3E%3Ctext x='32' y='45' font-size='36' font-family='sans-serif' font-weight='bold' text-anchor='middle' fill='%23ffffff'%3E%E6%98%93%3C/text%3E%3C/svg%3E" />
+<link rel="manifest" href="assets/site.webmanifest" />
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+<noscript><style>body{opacity:1;transform:none}</style></noscript>
+
+<header class="site-header">
+  <a class="brand" href="index.html">易俊臣 <span>/</span> YI JUNCHEN</a>
+  <nav class="site-nav" aria-label="主导航">
+    <a href="index.html">首页</a>
+    <a href="projects.html">项目</a>
+    <a href="courses.html">课程</a>
+    <a href="certificates.html">证书</a>
+    <details class="nav-more">
+      <summary>生活</summary>
+      <div class="nav-menu"><small>关于生活</small><a href="about.html">关于我</a><a href="design.html">设计作品</a><a href="fitness.html">健身日常</a><a href="cycling.html">骑行记录</a><a href="cats.html">我家的猫</a></div>
+    </details>
+    <a href="contact.html">联系</a>
+  </nav>
+</header>
+
+<div class="page-head">
+  <p class="crumb"><a href="index.html">首页</a> / 上过的课程</p>
+  <h1>上过的<em style="font-style:normal;color:transparent;-webkit-text-stroke:1.2px rgba(23,21,18,.34)">课程</em></h1>
+  <p>
+    按学期整理的课程清单。点上面的按钮可以只看某一学期，点表头可以按学分或分数排序。
+    成绩栏写着“待补充”的就是还没录入分数，查到了再来更新。
+  </p>
+</div>
+
+<section>
+  <div class="sec-head reveal">
+    <span class="num">01</span>
+    <h2>课程<em>清单</em></h2>
+    <span class="sec-note">Course List</span>
+  </div>
+
+  <div class="note reveal">
+    <b>关于这张表：</b>课程名与学分按培养方案整理，标着“待补充”的是成绩还没录入，请对照教务系统，
+    把课程名、类型、学分改准确——<span style="white-space:nowrap;">比多写几门更重要</span>。
+    修改方法见项目里的 Markdown 文档《资料填写清单》。
+  </div>
+
+  <div class="course-summary reveal">
+    <span>已修：<b>15</b> 门</span>
+    <span>在修：<b>3</b> 门</span>
+    <span>实践类课程：<b>3</b> 门</span>
+  </div>
+
+  <div class="filter-bar reveal" role="group" aria-label="按学期筛选">
+    <button type="button" data-filter="all" aria-pressed="true">全部</button>
+    <button type="button" data-filter="2024-1" aria-pressed="false">大一上</button>
+    <button type="button" data-filter="2024-2" aria-pressed="false">大一下</button>
+    <button type="button" data-filter="2025-1" aria-pressed="false">大二上</button>
+    <button type="button" data-filter="2026-1" aria-pressed="false">大三上</button>
+  </div>
+
+  <div class="table-wrap reveal">
+    <table id="courseTable">
+      <thead>
+        <tr>
+          <th>学期</th>
+          <th class="sortable" data-col="1">课程名称</th>
+          <th>课程类型</th>
+          <th class="sortable" data-col="3">学分</th>
+          <th class="sortable" data-col="4">成绩</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 大一上 -->
+        <tr data-term="2024-1">
+          <td class="day">大一上</td>
+          <td>计算机导论<span class="sub">计算机的发展、组成与基本概念；第一次接触二进制与逻辑运算。</span></td>
+          <td>专业必修</td>
+          <td>2</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-1">
+          <td class="day">大一上</td>
+          <td>C 语言程序设计<span class="sub">变量、分支、循环、函数、数组、指针入门；这门课是整个专业的“地基”。</span></td>
+          <td>专业必修</td>
+          <td>4</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-1">
+          <td class="day">大一上</td>
+          <td>高等数学 A（一）<span class="sub">极限、导数与微分；后面学算法复杂度会用到。</span></td>
+          <td>学科基础</td>
+          <td>5</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-1">
+          <td class="day">大一上</td>
+          <td>大学英语（一）</td>
+          <td>公共必修</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-1">
+          <td class="day">大一上</td>
+          <td>个人网站设计与部署<span class="sub">本项目：网页制作、Git 版本管理、云服务器部署。</span></td>
+          <td>专业实践</td>
+          <td>2</td>
+          <td class="score todo">待补充</td>
+        </tr>
+
+        <!-- 大一下 -->
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>数据结构<span class="sub">线性表、栈与队列、树、图，以及查找与排序算法。</span></td>
+          <td>专业必修</td>
+          <td>4</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>面向对象程序设计（Java）<span class="sub">类与对象、继承、多态、集合框架。</span></td>
+          <td>专业必修</td>
+          <td>4</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>Web 前端基础（HTML / CSS / JS）<span class="sub">本网站的进阶版；学完可以把这里改得更好看。</span></td>
+          <td>专业选修</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>线性代数<span class="sub">矩阵与线性方程；3D 建模和图形学的数学基础。</span></td>
+          <td>学科基础</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>大学物理（或计算机应用基础，按培养方案）</td>
+          <td>学科基础</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>大学英语（二）</td>
+          <td>公共必修</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2024-2">
+          <td class="day">大一下</td>
+          <td>体育（一）</td>
+          <td>公共必修</td>
+          <td>1</td>
+          <td class="score todo">待补充</td>
+        </tr>
+
+        <!-- 大二上 -->
+        <tr data-term="2025-1">
+          <td class="day">大二上</td>
+          <td>计算机组成原理</td>
+          <td>专业必修</td>
+          <td>4</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2025-1">
+          <td class="day">大二上</td>
+          <td>数据库原理</td>
+          <td>专业必修</td>
+          <td>3</td>
+          <td class="score todo">待补充</td>
+        </tr>
+        <tr data-term="2025-1">
+          <td class="day">大二上</td>
+          <td>操作系统</td>
+          <td>专业必修</td>
+          <td>4</td>
+          <td class="score todo">待补充</td>
+        </tr>
+
+        <!-- 大三上（在修） -->
+        <tr data-term="2026-1">
+          <td class="day">大三上</td>
+          <td>计算机网络<span class="sub">TCP/IP 协议栈、HTTP 与 DNS；做前端调试时会直接用到。</span></td>
+          <td>专业必修</td>
+          <td>3</td>
+          <td class="score todo">在修</td>
+        </tr>
+        <tr data-term="2026-1">
+          <td class="day">大三上</td>
+          <td>软件工程<span class="sub">需求分析、模块划分、版本管理；本项目的文档结构按这门课的方法整理。</span></td>
+          <td>专业必修</td>
+          <td>3</td>
+          <td class="score todo">在修</td>
+        </tr>
+        <tr data-term="2026-1">
+          <td class="day">大三上</td>
+          <td>Web 应用开发<span class="sub">前后端联动与接口调用；学完可以给本站补一个留言板。</span></td>
+          <td>专业选修</td>
+          <td>3</td>
+          <td class="score todo">在修</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="resume">
+    <div class="side reveal">
+      <h2>课程<em style="font-style:normal;color:transparent;-webkit-text-stroke:1.2px rgba(23,21,18,.34)">笔记</em></h2>
+      <p>What I Learned</p>
+    </div>
+    <div class="body reveal">
+      <div class="grid grid-3">
+        <div class="card">
+          <span class="kicker">C 语言</span>
+          <h3>指针那一章</h3>
+          <p><strong>【待补充】</strong>写下自己最大的一个理解或踩过的坑，例如“数组名和指针不是一回事”。</p>
+        </div>
+        <div class="card">
+          <span class="kicker">个人网站</span>
+          <h3>第一次部署服务器</h3>
+          <p>从买服务器、配置安全组，到 Nginx 放上网页、用 IP 打开——写完部署文档后，这部分可以写得很具体。</p>
+        </div>
+        <div class="card">
+          <span class="kicker">设计</span>
+          <h3>大广赛的评审逻辑</h3>
+          <p><strong>【待补充】</strong>参赛后对“什么样的广告能打动人”的理解，和课堂上学到的有什么不同。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="reveal">
+    <p class="quote">
+      课表上的每一门课，<br>
+      最后都会变成<em>简历技能栏里的一个词</em>——前提是学进去了。
+      <small>关于课程</small>
+    </p>
+  </div>
+</section>
+
+<nav class="pager">
+  <a href="projects.html"><span class="small">← 上一页</span><span class="title">项目经历</span></a>
+  <a class="next" href="certificates.html"><span class="small">下一页 →</span><span class="title">证书与获奖</span></a>
+</nav>
+
+<footer class="site-footer">
+  <span>© <span data-year>2026</span> 易俊臣</span>
+  <span>四川传媒学院 · 智慧广电学院</span>
+  <span><a href="contact.html">联系我 →</a></span>
+</footer>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
